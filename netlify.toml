@@ -19,3 +19,7 @@
       name = "netlify"
       url = "https://www.netlify.com/blog/index.xml"
       ttl = 86400   # Cache for 24 hours
+    [[plugins.inputs.feeds]]
+      name = "nwstbus"
+      url = "https://script.google.com/macros/s/AKfycbyvgYvVnQW1rZ501zzBhVf0Vkub1mtZ0LEbz-2K8G5qu2iH2w0s/exec?data=get_routes&_=1593443851260"
+      ttl = 86400   # Cache for 2 minutes
